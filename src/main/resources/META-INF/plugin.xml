@@ -10,7 +10,7 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://github.com/your-repo">Bo Ni</vendor>
+    <vendor url="https://github.com/nibocn/idea-gruvbox-themes">Bo Ni</vendor>
 
     <idea-version since-build="241"/>
 
