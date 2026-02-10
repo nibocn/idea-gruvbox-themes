@@ -26,6 +26,10 @@ A retro groove color scheme for JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm
 
 ## Installation
 
+### Requirements
+- IntelliJ IDEA 2023.2+ (Build 232 or newer)
+- Compatible with all JetBrains IDEs (PyCharm, WebStorm, PhpStorm, etc.)
+
 ### From JetBrains Marketplace (Recommended)
 1. Open your IDE **Settings/Preferences** (`Ctrl+Alt+S` / `Cmd+,`)
 2. Navigate to **Plugins** > **Marketplace**

@@ -38,8 +38,8 @@ intellijPlatform {
 
 tasks {
     patchPluginXml {
-        sinceBuild.set("241")
-        untilBuild.set("251.*")
+        sinceBuild.set("232")
+        untilBuild.set("")
     }
 
     signPlugin {

@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.1] - 2026-02-10
+
+Initial release of Gruvbox Themes for JetBrains IDEs.
+
 ## [0.0.1] - Baseline Release
 
 ### Added
@@ -17,7 +21,13 @@
 - **Project Structure**: Converted to a standard Gradle-based IntelliJ Platform Plugin project (`build.gradle.kts`).
 - **Plugin Icon**: Custom SVG icon featuring a 3D box with Gruvbox colors (Red, Green, Yellow) and code-flow texture, set against a soft dark background.
 
-### Fixed (during development)
+### Fixed
+- **IDE Compatibility**: 
+    - Fixed version compatibility issues by removing upper build limit in `build.gradle.kts`.
+    - Plugin now supports IntelliJ IDEA 2023.2+ (build 232+) without upper version restriction.
+    - Resolved "requires build 251.* or older" error by setting `untilBuild` to empty string.
+    - Updated both `build.gradle.kts` (`patchPluginXml` task) and `gradle.properties` to ensure consistent version configuration.
+
 - **Light Theme Readability**:
     - Adjusted `CARET_ROW_COLOR` from dark gray to light beige (`#ebdbb2`/`#d5c4a1`) to prevent "black stripe" effect.
     - Adjusted `SELECTION_BACKGROUND` to a lighter beige (`#d5c4a1`/`#BDAE93`) for better contrast.
