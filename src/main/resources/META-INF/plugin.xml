@@ -1,0 +1,57 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>gruvbox-themes</id>
+    <version>0.0.1</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>Gruvbox Themes</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://github.com/your-repo">Bo Ni</vendor>
+
+    <idea-version since-build="241"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        <h2>Gruvbox Theme for JetBrains IDEs</h2>
+        <h2>JetBrains IDE 的 Gruvbox 主题</h2>
+
+        <p>A retro groove color scheme with warm, pastel colors designed to be easy on the eyes.</p>
+        <p>复古风格配色方案,采用温暖的柔和色彩,旨在提供舒适的视觉体验。</p>
+
+        <h3>Includes 6 variants / 包含 6 个变体:</h3>
+        <ul>
+            <li><b>Gruvbox Dark</b> - Standard dark theme / 标准深色主题</li>
+            <li><b>Gruvbox Dark Hard</b> - High contrast dark theme / 高对比度深色主题</li>
+            <li><b>Gruvbox Dark Soft</b> - Low contrast dark theme / 低对比度深色主题</li>
+            <li><b>Gruvbox Light</b> - Standard light theme / 标准浅色主题</li>
+            <li><b>Gruvbox Light Hard</b> - High contrast light theme / 高对比度浅色主题</li>
+            <li><b>Gruvbox Light Soft</b> - Low contrast light theme / 低对比度浅色主题</li>
+        </ul>
+
+        <p>Based on the original Gruvbox color scheme.</p>
+    ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+        Initial release with 6 theme variants.
+    ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="gruvbox-dark" path="/theme/gruvbox-dark.theme.json"/>
+        <themeProvider id="gruvbox-dark-hard" path="/theme/gruvbox-dark-hard.theme.json"/>
+        <themeProvider id="gruvbox-dark-soft" path="/theme/gruvbox-dark-soft.theme.json"/>
+        <themeProvider id="gruvbox-light" path="/theme/gruvbox-light.theme.json"/>
+        <themeProvider id="gruvbox-light-hard" path="/theme/gruvbox-light-hard.theme.json"/>
+        <themeProvider id="gruvbox-light-soft" path="/theme/gruvbox-light-soft.theme.json"/>
+    </extensions>
+</idea-plugin>
