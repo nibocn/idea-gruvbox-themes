@@ -44,12 +44,13 @@
     <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
-    <option name="RIGHT_MARGIN_COLOR" value="32302f" />
+    <option name="RIGHT_MARGIN_COLOR" value="282828" />
+    <option name="VISUAL_INDENT_GUIDE" value="282828" />
     <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
-    <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
+    <option name="SELECTED_TEARLINE_COLOR" value="504945" />
     <option name="SELECTION_BACKGROUND" value="665c54" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="665c54" />
+    <option name="TEARLINE_COLOR" value="32302f" />
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
