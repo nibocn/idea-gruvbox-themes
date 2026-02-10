@@ -29,17 +29,23 @@ Initial release of Gruvbox Themes for JetBrains IDEs.
     - Updated both `build.gradle.kts` (`patchPluginXml` task) and `gradle.properties` to ensure consistent version configuration.
 
 - **Visual Guides Optimization**:
+    - **Improved Differentiation Between Guide Types**:
+        - Visual guides (80/120 columns) and hard wrap line (100 column) now use distinct but harmonious colors for better visual distinction.
+        - Light themes: Hard wrap line is noticeably darker than visual guides for clear identification.
+        - Dark themes: Hard wrap line is slightly brighter than visual guides for subtle contrast.
     - **Light Themes**: 
         - Fixed overly prominent visual guide lines (80, 120 columns) and hard wrap line (100 column).
-        - Changed `TEARLINE_COLOR` from dark gray (`#665c54`) to soft beige (`#d5c4a1` for Light/Light Hard, `#bdae93` for Light Soft).
-        - Changed `RIGHT_MARGIN_COLOR` to match tearline colors for consistency.
-        - Added missing `VISUAL_INDENT_GUIDE` property to ensure all guide lines use the same color.
+        - `VISUAL_INDENT_GUIDE` (80/120): `#d5c4a1` for Light/Light Hard, `#bdae93` for Light Soft.
+        - `RIGHT_MARGIN_COLOR` (100): `#bdae93` for Light/Light Hard, `#928374` for Light Soft.
+        - Changed `TEARLINE_COLOR` from dark gray (`#665c54`) to soft beige.
+        - Added missing `VISUAL_INDENT_GUIDE` property to ensure proper rendering.
     - **Dark Themes**: 
         - Fixed overly bright (white) visual guide lines.
-        - Changed `TEARLINE_COLOR` from medium gray (`#665c54`) to softer gray (`#3c3836` for Dark/Dark Soft, `#32302f` for Dark Hard).
-        - Changed `RIGHT_MARGIN_COLOR` to match tearline colors for consistency.
+        - `VISUAL_INDENT_GUIDE` (80/120): `#3c3836` for Dark/Dark Soft, `#282828` for Dark Hard.
+        - `RIGHT_MARGIN_COLOR` (100): `#504945` for Dark/Dark Soft, `#32302f` for Dark Hard.
+        - Changed `TEARLINE_COLOR` from medium gray (`#665c54`) to softer grays.
         - Updated `SELECTED_TEARLINE_COLOR` from bright green (`#8ec07c`) to muted gray (`#504945`).
-    - Result: All three guide lines (visual guides at 80/120, hard wrap at 100) now use harmonious, non-distracting colors in all themes.
+    - Result: All guide lines are harmonious, non-distracting, and clearly distinguishable across all 6 theme variants.
 
 - **Light Theme Readability**:
     - Optimized indent guide (code alignment) line colors from dark gray (`#665c54`) to softer beige (`#d5c4a1`) to reduce visual prominence.
