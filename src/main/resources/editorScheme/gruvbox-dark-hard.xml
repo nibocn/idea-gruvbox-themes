@@ -707,10 +707,16 @@
         <option name="FOREGROUND" value="f9f5d7" />
       </value>
     </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="928374" />
+        <option name="BACKGROUND" value="282828" />
+      </value>
+    </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="fbf1c7" />
-        <option name="BACKGROUND" value="8ec07c" />
+        <option name="FOREGROUND" value="a89984" />
+        <option name="BACKGROUND" value="282828" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
