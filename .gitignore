@@ -1,7 +1,27 @@
+# Gradle
+.gradle
+build
 out
-*.jar
+
+# IntelliJ IDEA
 .idea
 *.iml
+*.ipr
+*.iws
 .intellijPlatform
-build
-.gradle
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.jar
+*.zip
+
+# Logs
+*.log
