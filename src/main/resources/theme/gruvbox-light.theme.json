@@ -6,10 +6,12 @@
   "colors": {
     "primaryBackground": "#fbf1c7",
     "primaryForeground": "#3c3836",
-    "primaryBorder": "#ebdbb2",
+    "primaryBorder": "#d5c4a1",
     "selectionBackground": "#ebdbb2",
     "selectionForeground": "#282828",
-    "accent": "#b57614"
+    "accent": "#b57614",
+    "hoverBackground": "#ebdbb2",
+    "pressedBackground": "#d5c4a1"
   },
   "ui": {
     "*": {
@@ -20,8 +22,10 @@
       "selectionForeground": "selectionForeground",
       "separatorColor": "primaryBorder"
     },
+    
     "Panel.background": "primaryBackground",
     "Label.foreground": "primaryForeground",
+    
     "Button.background": "#fbf1c7",
     "Button.foreground": "#3c3836",
     "Button.startBackground": "#fbf1c7",
@@ -29,31 +33,118 @@
     "Button.default.startBackground": "#b57614",
     "Button.default.endBackground": "#b57614",
     "Button.default.foreground": "#fbf1c7",
+    
     "TextField.background": "#fbf1c7",
     "TextField.foreground": "#3c3836",
     "TextField.caretForeground": "#3c3836",
+    
     "Tree.background": "primaryBackground",
     "Tree.foreground": "primaryForeground",
     "Tree.selectionBackground": "selectionBackground",
     "Tree.selectionForeground": "selectionForeground",
+    
     "List.background": "primaryBackground",
     "List.foreground": "primaryForeground",
     "List.selectionBackground": "selectionBackground",
     "List.selectionForeground": "selectionForeground",
+    
     "Table.background": "primaryBackground",
     "Table.foreground": "primaryForeground",
     "Table.selectionBackground": "selectionBackground",
     "Table.selectionForeground": "selectionForeground",
     "Table.gridColor": "primaryBorder",
+    
     "EditorTabs.background": "#fbf1c7",
     "EditorTabs.underlinedTabBackground": "#fbf1c7",
     "EditorTabs.underlineColor": "#b57614",
-    "EditorTabs.inactiveUnderlineColor": "#ebdbb2",
+    "EditorTabs.inactiveUnderlineColor": "#d5c4a1",
+    "EditorTabs.borderColor": "#d5c4a1",
+    "EditorTabs.hoverBackground": "#ebdbb2",
+    "EditorTabs.selectedBackground": "#fbf1c7",
+    "EditorTabs.selectedForeground": "#b57614",
+    "EditorTabs.inactiveForeground": "#928374",
+    
+    "TabbedPane.background": "#fbf1c7",
+    "TabbedPane.foreground": "#3c3836",
+    "TabbedPane.underlineColor": "#b57614",
+    "TabbedPane.hoverColor": "#ebdbb2",
+    "TabbedPane.contentAreaColor": "#d5c4a1",
+    "TabbedPane.tabSelectionHeight": 2,
+    
     "ToolWindow.Header.background": "#fbf1c7",
+    "ToolWindow.Header.foreground": "#3c3836",
+    "ToolWindow.Header.borderColor": "#d5c4a1",
     "ToolWindow.HeaderTab.selectedBackground": "#fbf1c7",
     "ToolWindow.HeaderTab.selectedInactiveBackground": "#fbf1c7",
+    "ToolWindow.HeaderTab.hoverBackground": "#ebdbb2",
+    "ToolWindow.HeaderTab.underlineColor": "#b57614",
+    "ToolWindow.HeaderTab.inactiveUnderlineColor": "#d5c4a1",
+    
+    "ScrollBar.background": "#fbf1c7",
+    "ScrollBar.thumb": "#d5c4a1",
+    "ScrollBar.thumbBorderColor": "#d5c4a1",
+    "ScrollBar.thumbDarkerShadow": "#d5c4a1",
+    "ScrollBar.hoverThumbColor": "#bdae93",
+    "ScrollBar.hoverThumbBorderColor": "#bdae93",
+    "ScrollBar.Mac.Transparent.thumbColor": "#d5c4a1",
+    "ScrollBar.Mac.Transparent.hoverThumbColor": "#bdae93",
+    "ScrollBar.Mac.Transparent.thumbBorderColor": "#d5c4a1",
+    "ScrollBar.Mac.Transparent.hoverThumbBorderColor": "#bdae93",
+    "ScrollBar.Mac.thumbColor": "#d5c4a1",
+    "ScrollBar.Mac.hoverThumbColor": "#bdae93",
+    "ScrollBar.Mac.thumbBorderColor": "#d5c4a1",
+    "ScrollBar.Mac.hoverThumbBorderColor": "#bdae93",
+    
+    "ComboBox.background": "#fbf1c7",
+    "ComboBox.foreground": "#3c3836",
+    "ComboBox.ArrowButton.background": "#fbf1c7",
+    "ComboBox.ArrowButton.foreground": "#3c3836",
+    "ComboBox.ArrowButton.nonEditableBackground": "#fbf1c7",
+    "ComboBox.selectionBackground": "#ebdbb2",
+    "ComboBox.selectionForeground": "#282828",
+    "ComboBox.disabledBackground": "#fbf1c7",
+    "ComboBox.disabledForeground": "#a89984",
+    
+    "ComboPopup.border": "#d5c4a1",
+    
+    "Menu.background": "#fbf1c7",
+    "Menu.foreground": "#3c3836",
+    "Menu.selectionBackground": "#ebdbb2",
+    "Menu.selectionForeground": "#282828",
+    "Menu.borderColor": "#d5c4a1",
+    
+    "MenuItem.background": "#fbf1c7",
+    "MenuItem.foreground": "#3c3836",
+    "MenuItem.selectionBackground": "#ebdbb2",
+    "MenuItem.selectionForeground": "#282828",
+    "MenuItem.disabledForeground": "#a89984",
+    
+    "MenuBar.background": "#fbf1c7",
+    "MenuBar.foreground": "#3c3836",
+    "MenuBar.borderColor": "#d5c4a1",
+    
+    "Popup.background": "#fbf1c7",
+    "Popup.Border.color": "#d5c4a1",
+    "Popup.Header.activeBackground": "#ebdbb2",
+    "Popup.Header.inactiveBackground": "#fbf1c7",
+    "Popup.Toolbar.background": "#fbf1c7",
+    "Popup.Toolbar.borderColor": "#d5c4a1",
+    
+    "ToolBar.background": "#fbf1c7",
+    "ToolBar.foreground": "#3c3836",
+    "ToolBar.borderHandleColor": "#a89984",
+    
     "ProgressBar.progressColor": "#b57614",
+    "ProgressBar.indeterminateStartColor": "#b57614",
+    "ProgressBar.indeterminateEndColor": "#af3a03",
+    "ProgressBar.trackColor": "#ebdbb2",
+    
     "Component.focusColor": "#b57614",
-    "Component.borderColor": "primaryBorder"
+    "Component.borderColor": "primaryBorder",
+    "Component.hoverIconColor": "#b57614",
+    "Component.focusedBorderColor": "#b57614",
+    "Component.errorFocusColor": "#cc241d",
+    "Component.infoForeground": "#076678",
+    "Component.warningFocusColor": "#d65d0e"
   }
 }

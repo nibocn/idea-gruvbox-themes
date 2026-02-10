@@ -52,6 +52,14 @@
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="3c3836" />
     <option name="WHITESPACES" value="505050" />
+    <option name="ScrollBar.background" value="32302f" />
+    <option name="ScrollBar.Transparent.thumbColor" value="504945" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="665c54" />
+    <option name="ScrollBar.Transparent.pressedThumbColor" value="7c6f64" />
+    <option name="ScrollBar.thumbColor" value="504945" />
+    <option name="ScrollBar.hoverThumbColor" value="665c54" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="504945" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="665c54" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
