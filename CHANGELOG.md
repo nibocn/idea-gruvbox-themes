@@ -29,6 +29,8 @@ Initial release of Gruvbox Themes for JetBrains IDEs.
     - Updated both `build.gradle.kts` (`patchPluginXml` task) and `gradle.properties` to ensure consistent version configuration.
 
 - **Light Theme Readability**:
+    - Optimized indent guide (code alignment) line colors from dark gray (`#665c54`) to softer beige (`#d5c4a1`) to reduce visual prominence.
+    - Updated selected indent guide color to `#bdae93` for better harmony with light backgrounds.
     - Adjusted `CARET_ROW_COLOR` from dark gray to light beige (`#ebdbb2`/`#d5c4a1`) to prevent "black stripe" effect.
     - Adjusted `SELECTION_BACKGROUND` to a lighter beige (`#d5c4a1`/`#BDAE93`) for better contrast.
     - Fixed "Identifier Under Caret" and "Write Identifier" backgrounds to be lighter (`#E6DCA5` / `#D5C4A1`) to distinguish them from the selection background.
