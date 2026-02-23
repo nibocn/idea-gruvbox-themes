@@ -49,11 +49,27 @@ Select one of the Gruvbox themes from the **Theme** dropdown menu.
 
 ## Screenshots
 
-### Gruvbox Dark
-*(Add screenshot here)*
+### Dark Series
 
-### Gruvbox Light
-*(Add screenshot here)*
+#### Gruvbox Dark
+![Gruvbox Dark](./screenshots/gruvbox-dark.png)
+
+#### Gruvbox Dark Hard
+![Gruvbox Dark Hard](./screenshots/gruvbox-dark-hard.png)
+
+#### Gruvbox Dark Soft
+![Gruvbox Dark Soft](./screenshots/gruvbox-dark-soft.png)
+
+### Light Series
+
+#### Gruvbox Light
+![Gruvbox Light](./screenshots/gruvbox-light.png)
+
+#### Gruvbox Light Hard
+![Gruvbox Light Hard](./screenshots/gruvbox-light-hard.png)
+
+#### Gruvbox Light Soft
+![Gruvbox Light Soft](./screenshots/gruvbox-light-soft.png)
 
 ## Development
 

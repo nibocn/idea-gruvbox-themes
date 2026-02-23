@@ -39,7 +39,16 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release with 6 theme variants.
+        <h3>Initial Release v0.0.1</h3>
+        <ul>
+            <li>6 Theme Variants: Dark, Dark Hard, Dark Soft, Light, Light Hard, Light Soft</li>
+            <li>Full syntax highlighting with Gruvbox color palette</li>
+            <li>Consistent UI theming for all IDE components</li>
+            <li>Custom scrollbar colors</li>
+            <li>Optimized inlay hints and reference highlighting</li>
+            <li>Documentation popup background customization</li>
+            <li>Supports IntelliJ IDEA 2023.2+ (build 232+)</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
