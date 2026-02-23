@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        intellijIdeaCommunity("2024.1")
+        intellijIdeaCommunity("2024.3")
         bundledPlugin("com.intellij.java")
         pluginVerifier()
         zipSigner()
@@ -24,7 +24,7 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -38,7 +38,8 @@ intellijPlatform {
 
 tasks {
     patchPluginXml {
-        sinceBuild.set("232")
+        sinceBuild.set("243")
+        untilBuild.set("263.*")
     }
 
     signPlugin {
