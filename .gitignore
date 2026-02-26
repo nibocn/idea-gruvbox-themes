@@ -25,3 +25,4 @@ bin/
 
 # Logs
 *.log
+kls_database.db
