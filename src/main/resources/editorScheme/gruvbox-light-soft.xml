@@ -1,7 +1,7 @@
 <scheme name="Gruvbox Light Soft" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="79740e" />
+    <option name="ADDED_LINES_COLOR" value="689d6a" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
     <option name="CARET_COLOR" value="3c3836" />
     <option name="CARET_ROW_COLOR" value="d5c4a1" />
@@ -27,7 +27,7 @@
     <option name="INDENT_GUIDE" value="d5c4a1" />
     <option name="LINE_NUMBERS_COLOR" value="928374" />
     <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
-    <option name="MODIFIED_LINES_COLOR" value="415f69" />
+    <option name="MODIFIED_LINES_COLOR" value="076678" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="928374" />
     <option name="SELECTED_INDENT_GUIDE" value="bdae93" />
@@ -508,26 +508,26 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="45302b" />
-        <option name="ERROR_STRIPE_COLOR" value="8f5247" />
+        <option name="BACKGROUND" value="f0dcc8" />
+        <option name="ERROR_STRIPE_COLOR" value="af3a03" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="484a4a" />
-        <option name="ERROR_STRIPE_COLOR" value="656e76" />
+        <option name="BACKGROUND" value="f0d0cc" />
+        <option name="ERROR_STRIPE_COLOR" value="9d0006" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="294436" />
-        <option name="ERROR_STRIPE_COLOR" value="447152" />
+        <option name="BACKGROUND" value="d4e8cc" />
+        <option name="ERROR_STRIPE_COLOR" value="79740e" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="385570" />
-        <option name="ERROR_STRIPE_COLOR" value="43698d" />
+        <option name="BACKGROUND" value="c8dce8" />
+        <option name="ERROR_STRIPE_COLOR" value="076678" />
       </value>
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">

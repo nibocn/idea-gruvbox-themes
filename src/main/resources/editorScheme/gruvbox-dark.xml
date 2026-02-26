@@ -508,26 +508,26 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="45302b" />
-        <option name="ERROR_STRIPE_COLOR" value="8f5247" />
+        <option name="BACKGROUND" value="3b2e20" />
+        <option name="ERROR_STRIPE_COLOR" value="7a4a1e" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="484a4a" />
-        <option name="ERROR_STRIPE_COLOR" value="656e76" />
+        <option name="BACKGROUND" value="3b2a2a" />
+        <option name="ERROR_STRIPE_COLOR" value="6c3333" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="294436" />
+        <option name="BACKGROUND" value="2e3b2e" />
         <option name="ERROR_STRIPE_COLOR" value="447152" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="385570" />
-        <option name="ERROR_STRIPE_COLOR" value="43698d" />
+        <option name="BACKGROUND" value="2a3040" />
+        <option name="ERROR_STRIPE_COLOR" value="375fad" />
       </value>
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">
@@ -664,8 +664,8 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="76678" />
-        <option name="ERROR_STRIPE_COLOR" value="458587" />
+        <option name="BACKGROUND" value="076678" />
+        <option name="ERROR_STRIPE_COLOR" value="458588" />
       </value>
     </option>
     <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
@@ -1027,8 +1027,8 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="76678" />
-        <option name="ERROR_STRIPE_COLOR" value="76678" />
+        <option name="BACKGROUND" value="076678" />
+        <option name="ERROR_STRIPE_COLOR" value="076678" />
       </value>
     </option>
     <option name="SLIM_FILTER" baseAttributes="DEFAULT_LABEL" />
@@ -1095,8 +1095,8 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="76678" />
-        <option name="ERROR_STRIPE_COLOR" value="76678" />
+        <option name="BACKGROUND" value="076678" />
+        <option name="ERROR_STRIPE_COLOR" value="076678" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
