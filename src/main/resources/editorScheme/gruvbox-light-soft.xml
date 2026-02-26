@@ -62,6 +62,7 @@
     <option name="ScrollBar.hoverThumbColor" value="7c6f64" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="928374" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="7c6f64" />
+    <option name="LOOKUP_COLOR" value="f2e5bc" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
