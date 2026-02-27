@@ -96,7 +96,8 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a2323" />
+        <option name="BACKGROUND" value="f5d0d0" />
+        <option name="ERROR_STRIPE_COLOR" value="9d0006" />
       </value>
     </option>
     <option name="Block comment">
@@ -595,9 +596,32 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEBUGGER_INLINED_VALUES">
+      <value>
+        <option name="FOREGROUND" value="928374" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="FOREGROUND" value="076678" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="b57614" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="2d6099" />
+        <option name="BACKGROUND" value="c8dce8" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="d8e4ee" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
