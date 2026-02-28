@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gruvbox-themes</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -39,6 +39,14 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+        <h3>v0.0.2</h3>
+        <ul>
+            <li>Refined active/inactive tool window header colors for all dark and light variants.</li>
+            <li>Improved list and plugin selection/hover backgrounds in light and dark modes.</li>
+            <li>Unified notification card background and hover colors (including NotificationsToolwindow.Notification.* keys).</li>
+            <li>Adjusted banner info background/foreground to match Gruvbox palettes in all variants.</li>
+        </ul>
+
         <h3>Initial Release v0.0.1</h3>
         <ul>
             <li>6 Theme Variants: Dark, Dark Hard, Dark Soft, Light, Light Hard, Light Soft</li>
