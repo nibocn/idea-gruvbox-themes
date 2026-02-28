@@ -42,16 +42,19 @@
     "Tree.foreground": "primaryForeground",
     "Tree.selectionBackground": "selectionBackground",
     "Tree.selectionForeground": "selectionForeground",
+    "Tree.lightSelectionBackground": "#3c3836",
     
     "List.background": "primaryBackground",
     "List.foreground": "primaryForeground",
     "List.selectionBackground": "selectionBackground",
     "List.selectionForeground": "selectionForeground",
+    "List.lightSelectionBackground": "#3c3836",
     
     "Table.background": "primaryBackground",
     "Table.foreground": "primaryForeground",
     "Table.selectionBackground": "selectionBackground",
     "Table.selectionForeground": "selectionForeground",
+    "Table.lightSelectionBackground": "#3c3836",
     "Table.gridColor": "primaryBorder",
     
     "EditorTabs.background": "#282828",
@@ -151,6 +154,11 @@
     "ToolBar.background": "#282828",
     "ToolBar.foreground": "#ebdbb2",
     "ToolBar.borderHandleColor": "#665c54",
+
+    "Plugins.lightSelectionBackground": "#3c3836",
+    "Plugins.hoverBackground": "#504945",
+    "NotificationsToolwindow.newNotification.background": "#3c3836",
+    "NotificationsToolwindow.newNotification.hoverBackground": "#504945",
 
     "Banner.infoBackground": "#3c3836",
     "Banner.foreground": "#ebdbb2",
