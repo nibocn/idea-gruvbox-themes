@@ -55,6 +55,8 @@
     "ToolWindow.Header.inactiveForeground": "#a89984",
     "ToolWindow.HeaderTab.selectedBackground": "#1d2021",
     "ToolWindow.HeaderTab.selectedInactiveBackground": "#282828",
+    "Banner.infoBackground": "#3c3836",
+    "Banner.foreground": "#ebdbb2",
     "ProgressBar.progressColor": "#fabd2f",
     "Component.focusColor": "#fabd2f",
     "Component.borderColor": "primaryBorder"

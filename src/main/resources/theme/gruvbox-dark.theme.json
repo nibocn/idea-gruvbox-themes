@@ -151,6 +151,9 @@
     "ToolBar.background": "#282828",
     "ToolBar.foreground": "#ebdbb2",
     "ToolBar.borderHandleColor": "#665c54",
+
+    "Banner.infoBackground": "#3c3836",
+    "Banner.foreground": "#ebdbb2",
     
     "ProgressBar.progressColor": "#fabd2f",
     "ProgressBar.indeterminateStartColor": "#fabd2f",
