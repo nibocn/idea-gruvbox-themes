@@ -50,8 +50,11 @@
     "EditorTabs.underlineColor": "#b57614",
     "EditorTabs.inactiveUnderlineColor": "#ebdbb2",
     "ToolWindow.Header.background": "#f2e5bc",
+    "ToolWindow.Header.inactiveBackground": "#ebdbb2",
+    "ToolWindow.Header.foreground": "#3c3836",
+    "ToolWindow.Header.inactiveForeground": "#928374",
     "ToolWindow.HeaderTab.selectedBackground": "#f2e5bc",
-    "ToolWindow.HeaderTab.selectedInactiveBackground": "#f2e5bc",
+    "ToolWindow.HeaderTab.selectedInactiveBackground": "#ebdbb2",
     "ProgressBar.progressColor": "#b57614",
     "Component.focusColor": "#b57614",
     "Component.borderColor": "primaryBorder"

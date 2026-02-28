@@ -72,10 +72,12 @@
     "TabbedPane.tabSelectionHeight": 2,
     
     "ToolWindow.Header.background": "#282828",
+    "ToolWindow.Header.inactiveBackground": "#32302f",
     "ToolWindow.Header.foreground": "#ebdbb2",
+    "ToolWindow.Header.inactiveForeground": "#a89984",
     "ToolWindow.Header.borderColor": "#3c3836",
     "ToolWindow.HeaderTab.selectedBackground": "#282828",
-    "ToolWindow.HeaderTab.selectedInactiveBackground": "#282828",
+    "ToolWindow.HeaderTab.selectedInactiveBackground": "#32302f",
     "ToolWindow.HeaderTab.hoverBackground": "#3c3836",
     "ToolWindow.HeaderTab.underlineColor": "#fabd2f",
     "ToolWindow.HeaderTab.inactiveUnderlineColor": "#3c3836",
