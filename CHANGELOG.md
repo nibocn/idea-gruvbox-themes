@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.2] - 2026-02-28
+
+### Changed
+- Refined active/inactive tool window header colors across all light and dark variants for better focus-state contrast.
+- Tuned list selection colors in both modes, including `Tree/List/Table.lightSelectionBackground` overrides.
+- Improved plugin list visuals by adding explicit `Plugins.lightSelectionBackground` and `Plugins.hoverBackground` values.
+- Unified notification card backgrounds and hover states with Gruvbox palette colors for both `newNotification` and `Notification` keys.
+- Adjusted banner info colors (`Banner.infoBackground`, `Banner.foreground`) for better consistency with each theme variant.
+
 ## [0.0.1] - 2026-02-10
 
 Initial release of Gruvbox Themes for JetBrains IDEs.
