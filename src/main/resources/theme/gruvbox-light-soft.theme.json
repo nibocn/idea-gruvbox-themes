@@ -62,6 +62,8 @@
     "Plugins.hoverBackground": "#ebdbb2",
     "NotificationsToolwindow.newNotification.background": "#d5c4a1",
     "NotificationsToolwindow.newNotification.hoverBackground": "#ebdbb2",
+    "NotificationsToolwindow.Notification.background": "#d5c4a1",
+    "NotificationsToolwindow.Notification.hoverBackground": "#ebdbb2",
     "Banner.infoBackground": "#ebdbb2",
     "Banner.foreground": "#3c3836",
     "ProgressBar.progressColor": "#b57614",
