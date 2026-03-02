@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.3] - 2026-02-28
+
+### Changed
+- Softened documentation comment guide colors in all light/dark schemes to remove harsh vertical lines in decompiled sources.
+- Brightened dark theme list selection backgrounds (Recent Files, popup lists) so the focused row stands out.
+
 ## [0.0.2] - 2026-02-28
 
 ### Changed
