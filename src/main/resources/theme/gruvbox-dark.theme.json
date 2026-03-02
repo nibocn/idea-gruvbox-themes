@@ -20,6 +20,10 @@
       "borderColor": "primaryBorder",
       "selectionBackground": "selectionBackground",
       "selectionForeground": "selectionForeground",
+      "selectionInactiveBackground": "#665c54",
+      "selectionBackgroundInactive": "#665c54",
+      "selectionInactiveForeground": "#ebdbb2",
+      "selectionForegroundInactive": "#ebdbb2",
       "separatorColor": "primaryBorder"
     },
     
@@ -46,8 +50,10 @@
     
     "List.background": "primaryBackground",
     "List.foreground": "primaryForeground",
-    "List.selectionBackground": "selectionBackground",
+    "List.selectionBackground": "#665c54",
     "List.selectionForeground": "selectionForeground",
+    "List.selectionInactiveBackground": "#665c54",
+    "List.selectionInactiveForeground": "#ebdbb2",
     "List.lightSelectionBackground": "#3c3836",
     
     "Table.background": "primaryBackground",
