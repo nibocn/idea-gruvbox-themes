@@ -185,7 +185,7 @@
     "Component.hoverIconColor": "#fabd2f",
     "Component.focusedBorderColor": "#fabd2f",
     "Component.errorFocusColor": "#fb4934",
-    "Component.infoForeground": "#83a598",
+    "Component.infoForeground": "#bdae93",
     "Component.warningFocusColor": "#fe8019"
   }
 }

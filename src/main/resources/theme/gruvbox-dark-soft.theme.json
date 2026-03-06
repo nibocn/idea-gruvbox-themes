@@ -78,6 +78,7 @@
     "Banner.foreground": "#ebdbb2",
     "ProgressBar.progressColor": "#fabd2f",
     "Component.focusColor": "#fabd2f",
-    "Component.borderColor": "primaryBorder"
+    "Component.borderColor": "primaryBorder",
+    "Component.infoForeground": "#bdae93"
   }
 }
