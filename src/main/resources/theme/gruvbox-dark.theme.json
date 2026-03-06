@@ -44,13 +44,15 @@
     
     "Tree.background": "primaryBackground",
     "Tree.foreground": "primaryForeground",
-    "Tree.selectionBackground": "selectionBackground",
+    "Tree.selectionBackground": "#7c6f64",
     "Tree.selectionForeground": "selectionForeground",
+    "Tree.selectionInactiveBackground": "#665c54",
+    "Tree.selectionInactiveForeground": "#ebdbb2",
     "Tree.lightSelectionBackground": "#3c3836",
     
     "List.background": "primaryBackground",
     "List.foreground": "primaryForeground",
-    "List.selectionBackground": "#665c54",
+    "List.selectionBackground": "#7c6f64",
     "List.selectionForeground": "selectionForeground",
     "List.selectionInactiveBackground": "#665c54",
     "List.selectionInactiveForeground": "#ebdbb2",
@@ -58,8 +60,10 @@
     
     "Table.background": "primaryBackground",
     "Table.foreground": "primaryForeground",
-    "Table.selectionBackground": "selectionBackground",
+    "Table.selectionBackground": "#7c6f64",
     "Table.selectionForeground": "selectionForeground",
+    "Table.selectionInactiveBackground": "#665c54",
+    "Table.selectionInactiveForeground": "#ebdbb2",
     "Table.lightSelectionBackground": "#3c3836",
     "Table.gridColor": "primaryBorder",
     
