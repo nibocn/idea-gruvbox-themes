@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4] - 2026-03-02
+
+### Changed
+- Dark caret row highlight is deeper so bright text lines still show focus.
+- Dark list/tree/table selections tweaked for search and Recent Files clarity.
+- Secondary info text (paths, hint labels) in dark popups uses a brighter neutral tone.
+
 ## [0.0.3] - 2026-02-28
 
 ### Changed

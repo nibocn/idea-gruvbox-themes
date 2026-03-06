@@ -39,6 +39,13 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+        <h3>v0.0.4</h3>
+        <ul>
+            <li>Deepened caret row highlight in dark editor schemes for better focus on active lines.</li>
+            <li>Improved dark search/Recent Files selection colors (lists, trees, tables) to clarify hovered rows.</li>
+            <li>Brightened secondary info text (path hints) in dark popups for higher readability.</li>
+        </ul>
+
         <h3>v0.0.3</h3>
         <ul>
             <li>Softened documentation comment guides across all light and dark editor schemes to match each background.</li>
